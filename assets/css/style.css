@@ -85,10 +85,12 @@ button{
  border: none; 
  height: 100px;
  width: 100%;
+
    
 }
 .Btn:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
   }
 
 #contact{
@@ -107,7 +109,23 @@ footer{
     padding: 1rem;
     margin-right: 15px;
     margin-left: 15px;
+    
 }
+
+
+
+.fa-linkedin{
+    color:white;
+}
+
+.fa-github-square{
+    color:white;
+}
+
+.fa-envelope-square{
+    color:white;
+}
+
 
 
 
@@ -159,11 +177,29 @@ h2{
    
 }
 
+a{
+    font-size:13px;
+    font-weight: lighter;
+    color: rgb(46, 46, 46);
+    
+}
+ h4{
+     font-size: 15px;
+     font-weight: bold;
+ }
 
 
 
 /* ---------------------------------------------------------------- */
 
 .col-sm{
-    margin: 0 auto;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+#resumeLink{
+ font-size: 1rem;
+ font-weight: normal;
+
 }

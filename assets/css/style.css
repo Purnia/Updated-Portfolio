@@ -1,5 +1,5 @@
 body{
-    height:  100vh;
+    height:  100%;
     margin:  0px auto;
     padding: 0px auto;
     font-family: 'Montserrat', sans-serif;
@@ -13,13 +13,13 @@ body{
     border-color: rgb(44, 43, 43);
     border-width: 10px;
     margin: 10px;
-    height: 100vh;
+    height: 100%;
     
 }
 
-.main{
+.about-main{
     margin: 10px;
-    height: 100px;
+    height: 100%;
     
 }
 
@@ -113,6 +113,10 @@ footer{
     
 }
 
+#footerlinks{
+    padding:0px;
+    margin:2px;
+}
 
 
 .fa-linkedin{
@@ -126,6 +130,7 @@ footer{
 .fa-envelope-square{
     color:white;
 }
+
 
 
 
@@ -151,7 +156,7 @@ h2{
 
 .aboutMe{
     padding-top: 50px;
-    height: 58vh;
+    height: 100%;
     background-image: url("../images/city.jpeg");
     background-color: rgba(255, 255, 255, 0.758);
     background-blend-mode: lighten;
@@ -174,9 +179,10 @@ h2{
 
 #cards{
     /* margin: 5px; */
-    height: 100px;
+    /* height: 100px; */
     border-style: none;
-    margin: 0 auto;
+    margin: 20px;
+    padding:10px;
     text-align: center;
     
    
@@ -193,6 +199,10 @@ a{
      font-weight: bold;
  }
 
+ #PortfolioImg{
+     height: 150px;
+     width: 100%;
+ }
 
 
 /* ---------------------------------------------------------------- */
